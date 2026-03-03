@@ -17,7 +17,7 @@ Created the physical database structure. Used normalization principles to reduce
 2. Data Cleaning (03_data_cleaning.sql)
 I identified a common e-commerce issue: Duplicate Orders.
 
-Method: Used a Common Table Expression (CTE) with the **ROW_NUMBER() window function.
+Method: Used a Common Table Expression (CTE) with the **ROW_NUMBER()** window function.
 
 Result: Successfully identified and removed duplicate rows while keeping the unique original record.
 3. Business Analysis (04_analytical_queries.sql)
