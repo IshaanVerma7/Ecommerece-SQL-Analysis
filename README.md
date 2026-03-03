@@ -21,6 +21,6 @@ Method: Used a Common Table Expression (CTE) with the **ROW_NUMBER() window func
 
 Result: Successfully identified and removed duplicate rows while keeping the unique original record.
 3. Business Analysis (04_analytical_queries.sql)
-Top-Selling Products: Identified products generating the highest revenue using **SUM() and **JOIN.
+Top-Selling Products: Identified products generating the highest revenue using **SUM()** and **JOIN**.
 
-Customer Loyalty: Filtered for "Power Users" (customers with multiple orders) using **GROUP BY and **HAVING clauses.
+Customer Loyalty: Filtered for "Power Users" (customers with multiple orders) using **GROUP BY** and **HAVING clauses**.
